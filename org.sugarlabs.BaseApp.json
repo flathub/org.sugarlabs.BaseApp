@@ -1,7 +1,7 @@
 {
     "id": "org.sugarlabs.BaseApp",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "3.38",
     "sdk": "org.gnome.Sdk",
     "separate-locales": false,
     "cleanup": [
@@ -34,9 +34,9 @@
                 }
             ],
             "post-install": [
-                "chmod +x /app/lib/python3.7/site-packages/em.py",
+                "chmod +x /app/lib/python3.8/site-packages/em.py",
                 "mkdir -p /app/bin/",
-                "ln -s /app/lib/python3.7/site-packages/em.py /app/bin/empy"
+                "ln -s /app/lib/python3.8/site-packages/em.py /app/bin/empy"
             ]
         },
         {
@@ -71,7 +71,7 @@
             "cleanup": [ "*" ],
             "build-options": {
                 "env": {
-                    "PERL5LIB": "/app/lib/perl5/site_perl/5.30.0/"
+                    "PERL5LIB": "/app/lib/perl5/site_perl/5.32.0/"
                 }
             },
             "sources": [
@@ -90,7 +90,7 @@
             ],
             "build-options": {
                 "env": {
-                    "PERL5LIB": "/app/lib/perl5/site_perl/5.30.0/"
+                    "PERL5LIB": "/app/lib/perl5/site_perl/5.32.0/"
                 }
             },
             "sources": [
@@ -105,7 +105,7 @@
             "name": "python-dbus",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --no-index --find-links \"file://${PWD}\" --install-option=\"--prefix=${FLATPAK_DEST}\" dbus-python"
+                "pip3 install --no-index --find-links \"file://${PWD}\" --prefix=${FLATPAK_DEST} dbus-python"
             ],
             "sources": [
                 {
@@ -119,7 +119,7 @@
             "name": "decorator",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --no-index --find-links \"file://${PWD}\" --install-option=\"--prefix=${FLATPAK_DEST}\" decorator"
+                "pip3 install --no-index --find-links \"file://${PWD}\" --prefix=${FLATPAK_DEST} decorator"
             ],
             "sources": [
                 {
@@ -133,7 +133,7 @@
             "name": "python-six",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --no-index --find-links \"file://${PWD}\" --install-option=\"--prefix=${FLATPAK_DEST}\" six"
+                "pip3 install --no-index --find-links \"file://${PWD}\" --prefix=${FLATPAK_DEST} six"
             ],
             "sources": [
                 {
@@ -177,7 +177,7 @@
             "name": "sugarapp",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --no-index --find-links ${PWD} --install-option=\"--prefix=${FLATPAK_DEST}\" $PWD"
+                "pip3 install --no-index --find-links ${PWD} --prefix=${FLATPAK_DEST} $PWD"
             ],
             "sources": [
                 {
