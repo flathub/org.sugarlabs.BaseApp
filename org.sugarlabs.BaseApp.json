@@ -1,12 +1,12 @@
 {
     "id": "org.sugarlabs.BaseApp",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "separate-locales": false,
     "build-options": {
         "env": {
-            "PERL5LIB": "/app/lib/perl5/site_perl/5.32.0/"
+            "PERL5LIB": "/app/lib/perl5/site_perl/5.34.1/"
         }
     },
     "cleanup": [
@@ -22,7 +22,7 @@
         "*.a"
     ],
     "modules": [
-        "shared-modules/dbus-glib/dbus-glib-0.110.json",
+        "shared-modules/dbus-glib/dbus-glib.json",
         "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "empy",
@@ -39,9 +39,9 @@
                 }
             ],
             "post-install": [
-                "chmod +x /app/lib/python3.8/site-packages/em.py",
+                "chmod +x /app/lib/python3.9/site-packages/em.py",
                 "mkdir -p /app/bin/",
-                "ln -s /app/lib/python3.8/site-packages/em.py /app/bin/empy"
+                "ln -s /app/lib/python3.9/site-packages/em.py /app/bin/empy"
             ]
         },
         {
@@ -91,8 +91,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://download.sugarlabs.org/sources/sucrose/glucose/sugar-artwork/sugar-artwork-0.118.tar.xz",
-                    "sha256": "df00c26cf041bd5886a59317503d21aa406020ca2b807ba6de2b3674580ccd5e"
+                    "url": "http://download.sugarlabs.org/sources/sucrose/glucose/sugar-artwork/sugar-artwork-0.119.tar.xz",
+                    "sha256": "01a027b64c44e4f5fa27933d803ce8358d22c04bc882b689e797d36a85f13718"
                 }
             ]
         },
@@ -105,8 +105,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/62/7e/d4fb56a1695fa65da0c8d3071855fa5408447b913c58c01933c2f81a269a/dbus-python-1.2.16.tar.gz",
-                    "sha256": "11238f1d86c995d8aed2e22f04a1e3779f0d70e587caffeab4857f3c662ed5a4"
+                    "url": "https://files.pythonhosted.org/packages/b1/5c/ccfc167485806c1936f7d3ba97db6c448d0089c5746ba105b6eb22dba60e/dbus-python-1.2.18.tar.gz",
+                    "sha256": "92bdd1e68b45596c833307a5ff4b217ee6929a1502f5341bae28fd120acf7260"
                 }
             ]
         },
@@ -119,8 +119,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/a9/09/dd085a8afcf48fdaba851fe10956d5dbf1e9091206f7ca717223563f75c2/decorator-5.0.7.tar.gz",
-                    "sha256": "6f201a6c4dac3d187352661f508b9364ec8091217442c9478f1f83c003a0f060"
+                    "url": "https://files.pythonhosted.org/packages/66/0c/8d907af351aa16b42caae42f9d6aa37b900c67308052d10fdce809f8d952/decorator-5.1.1.tar.gz",
+                    "sha256": "637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330"
                 }
             ]
         },
@@ -133,8 +133,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/6b/34/415834bfdafca3c5f451532e8a8d9ba89a21c9743a0c59fbd0205c7f9426/six-1.15.0.tar.gz",
-                    "sha256": "30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259"
+                    "url": "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz",
+                    "sha256": "1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"
                 }
             ]
         },
@@ -162,8 +162,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://download.sugarlabs.org/sources/sucrose/glucose/sugar-toolkit-gtk3/sugar-toolkit-gtk3-0.118.tar.xz",
-                    "sha256": "94cffb71e5025de0faa388bf9b9f1a24802e9c1c05c81e4a92db704a356adad6"
+                    "url": "https://download.sugarlabs.org/sources/sucrose/glucose/sugar-toolkit-gtk3/sugar-toolkit-gtk3-0.119.tar.xz",
+                    "sha256": "c64a2a03bbd1a6b626006a650584645920b5ef376724d4fc68bc5719a94bea73"
                 }
             ]
         },
