@@ -39,9 +39,9 @@
                 }
             ],
             "post-install": [
-                "chmod +x /app/lib/python3.9/site-packages/em.py",
+                "chmod +x /app/lib/python3.10/site-packages/em.py",
                 "mkdir -p /app/bin/",
-                "ln -s /app/lib/python3.9/site-packages/em.py /app/bin/empy"
+                "ln -s /app/lib/python3.10/site-packages/em.py /app/bin/empy"
             ]
         },
         {
