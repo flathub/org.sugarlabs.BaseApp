@@ -23,4 +23,5 @@ Then edit `org.sugarlabs.BaseApp.json` to:
 1. Bump GNOME runtime to the latest stable version, e.g. `"runtime-version": "44"`
 2. Bump Python version references to the one included in the GNOME runtime, e.g. `flatpak --user run --command=python org.gnome.Platform//44 --version`
 3. Bump Perl version references to the one included in the GNOME SDK, e.g. `flatpak --user run --command=perl org.gnome.Sdk//44 --version`
-4. Update every single module to the latest stable version. e.g. for `python` modules go to https://pypi.org and grab the latest.
+4. Update `shared-modules` submodule with `git submodule update --remote`.
+5. Update every single module to the latest stable version. e.g. for python modules use [flatpak-pip-generator](https://github.com/flatpak/flatpak-builder-tools).
