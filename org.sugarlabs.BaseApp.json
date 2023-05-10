@@ -159,8 +159,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.sugarlabs.org/sources/sucrose/glucose/sugar-toolkit-gtk3/sugar-toolkit-gtk3-0.119.tar.xz",
-                    "sha256": "c64a2a03bbd1a6b626006a650584645920b5ef376724d4fc68bc5719a94bea73"
+                    "url": "https://download.sugarlabs.org/sources/sucrose/glucose/sugar-toolkit-gtk3/sugar-toolkit-gtk3-0.120.tar.xz",
+                    "sha256": "15476d1cc0bac2367ede4c855625cee88741c4d774908a7e633c264bb68b6928"
                 }
             ]
         },
