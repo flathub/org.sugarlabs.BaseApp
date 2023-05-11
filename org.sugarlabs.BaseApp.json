@@ -26,7 +26,9 @@
         "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "empy",
-            "cleanup": [ "*" ],
+            "cleanup": [
+                "*"
+            ],
             "buildsystem": "simple",
             "build-commands": [
                 "pip3 install --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} empy"
@@ -46,7 +48,9 @@
         },
         {
             "name": "perl-XML-Simple",
-            "cleanup": [ "*" ],
+            "cleanup": [
+                "*"
+            ],
             "buildsystem": "simple",
             "build-commands": [
                 "perl Makefile.PL PREFIX=${FLATPAK_DEST}",
@@ -62,7 +66,9 @@
         },
         {
             "name": "xcursorgen",
-            "cleanup": [ "*" ],
+            "cleanup": [
+                "*"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -73,7 +79,9 @@
         },
         {
             "name": "icon-naming-utils",
-            "cleanup": [ "*" ],
+            "cleanup": [
+                "*"
+            ],
             "sources": [
                 {
                     "type": "archive",
