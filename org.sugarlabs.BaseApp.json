@@ -83,7 +83,13 @@
                 {
                     "type": "archive",
                     "url": "https://gitlab.freedesktop.org/xorg/app/xcursorgen/-/archive/xcursorgen-1.0.8/xcursorgen-xcursorgen-1.0.8.tar.gz",
-                    "sha256": "390204bd72ab722e42c8a09f0a6e918a964ad8cefee02148d771c9be11e533e1"
+                    "sha256": "390204bd72ab722e42c8a09f0a6e918a964ad8cefee02148d771c9be11e533e1",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 21210,
+                        "stable-only": true,
+                        "url-template": "https://gitlab.freedesktop.org/xorg/app/xcursorgen/-/archive/xcursorgen-$version/xcursorgen-xcursorgen-$version.tar.gz"
+                    }
                 }
             ]
         },
