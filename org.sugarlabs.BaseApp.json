@@ -194,7 +194,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.sugarlabs.org/sources/sucrose/glucose/sugar-toolkit-gtk3/sugar-toolkit-gtk3-0.120.tar.xz",
-                    "sha256": "15476d1cc0bac2367ede4c855625cee88741c4d774908a7e633c264bb68b6928"
+                    "sha256": "15476d1cc0bac2367ede4c855625cee88741c4d774908a7e633c264bb68b6928",
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://download.sugarlabs.org/sources/sucrose/glucose/sugar-toolkit-gtk3/",
+                        "pattern": "<a href=\"sugar-toolkit-gtk3-.+.tar.xz\">(sugar-toolkit-gtk3-(\\d+.\\d+.\\d+).tar.xz)</a>",
+                        "url-pattern": "https://download.sugarlabs.org/sources/sucrose/glucose/sugar-toolkit-gtk3/sugar-toolkit-gtk3-$version.tar.xz"
+                    }
                 }
             ]
         },
