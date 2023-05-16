@@ -31,3 +31,4 @@ Then edit `org.sugarlabs.BaseApp.json` to:
 
 1. Search on flathub's github for an existing example, e.g. `org:flathub dbus-python-1.3.2`.
 2. For Python modules use [flatpak-pip-generator](https://github.com/flatpak/flatpak-builder-tools).
+3. For tarballs or git modules use [anitya](https://release-monitoring.org/) long with [flatpak-external-data-checker](https://github.com/flathub/flatpak-external-data-checker).
