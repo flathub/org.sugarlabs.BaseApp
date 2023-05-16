@@ -121,8 +121,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://download.sugarlabs.org/sources/sucrose/glucose/sugar-artwork/sugar-artwork-0.120.tar.xz",
-                    "sha256": "6052b4d3488daf78901d2914015e3c67017cb1bb0cf669625b1f1d62921e9afa"
+                    "url": "https://download.sugarlabs.org/sources/sucrose/glucose/sugar-artwork/sugar-artwork-0.120.tar.xz",
+                    "sha256": "6052b4d3488daf78901d2914015e3c67017cb1bb0cf669625b1f1d62921e9afa",
+                    "x-checker-data": {
+                        "type": "html",
+                        "url": "https://download.sugarlabs.org/sources/sucrose/glucose/sugar-artwork/",
+                        "pattern": "<a href=\"sugar-artwork-.+.tar.xz\">(sugar-artwork-(\\d+.\\d+.\\d+).tar.xz)</a>",
+                        "url-pattern": "https://download.sugarlabs.org/sources/sucrose/glucose/sugar-artwork/sugar-artwork-$version.tar.xz"
+                    }
                 }
             ]
         },
