@@ -64,7 +64,13 @@
                 {
                     "type": "archive",
                     "url": "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-Simple-2.25.tar.gz",
-                    "sha256": "531fddaebea2416743eb5c4fdfab028f502123d9a220405a4100e68fc480dbf8"
+                    "sha256": "531fddaebea2416743eb5c4fdfab028f502123d9a220405a4100e68fc480dbf8",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 3537,
+                        "stable-only": true,
+                        "url-template": "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-Simple-$version.tar.gz"
+                    }
                 }
             ]
         },
