@@ -174,12 +174,12 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/TelepathyIM/telepathy-glib.git",
-                    "tag": "telepathy-glib-0.99.11",
-                    "commit": "d00ccc12e7c27b42538389be4595f658ac2cc4eb",
+                    "url": "https://www.github.com/TelepathyIM/telepathy-glib.git",
+                    "tag": "telepathy-glib-0.24.2",
+                    "commit": "424e12a3277d23bc8cb3e84a1659a0939ade819e",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^telepathy-glib-([\\d.]+)$"
+                        "tag-pattern": "^telepathy-glib-0.24.(\\d)$"
                     }
                 }
             ]
