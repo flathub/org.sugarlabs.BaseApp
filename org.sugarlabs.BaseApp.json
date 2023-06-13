@@ -179,7 +179,10 @@
                     "commit": "424e12a3277d23bc8cb3e84a1659a0939ade819e",
                     "x-checker-data": {
                         "type": "git",
-                        "tag-pattern": "^telepathy-glib-0.24.(\\d)$"
+                        "versions": {
+                            "<": "0.99"
+                        },
+                        "tag-pattern": "^telepathy-glib-([\\d.]+)$"
                     }
                 }
             ]
