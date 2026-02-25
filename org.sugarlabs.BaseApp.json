@@ -1,7 +1,7 @@
 {
     "id": "org.sugarlabs.BaseApp",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "46",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "separate-locales": false,
     "build-options": {
