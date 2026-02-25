@@ -218,7 +218,7 @@
             "name": "sugarapp",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --no-index --find-links ${PWD} --prefix=${FLATPAK_DEST} $PWD"
+                "pip3 install --no-index --find-links ${PWD} --prefix=${FLATPAK_DEST} $PWD --no-build-isolation"
             ],
             "sources": [
                 {
