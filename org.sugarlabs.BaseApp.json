@@ -187,6 +187,10 @@
                         },
                         "tag-pattern": "^telepathy-glib-([\\d.]+)$"
                     }
+                },
+                {
+		    "type": "patch",
+		    "path": "telepathy-glib-prXXX-function-type-cast.patch"
                 }
             ]
         },
