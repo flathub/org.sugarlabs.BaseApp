@@ -6,7 +6,7 @@
     "separate-locales": false,
     "build-options": {
         "env": {
-            "PERL5LIB": "/app/lib/perl5/site_perl/5.38.2/"
+            "PERL5LIB": "/app/lib/perl5/site_perl/5.42/"
         }
     },
     "cleanup": [
